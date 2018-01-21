@@ -8,7 +8,7 @@ class Options extends React.Component {
     return (
       <div>
         <button onClick={this.props.onHandleReset}>Reset All</button>
-        {this.props.items.length === 0 && <p>No Items Exist</p>}
+        {this.props.items.length === 0 && <p>Please add an option to get started...</p>}
         {
           this.props.items.map(item => {
             return (
